@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-07-30T05:15:28.693Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="m7KnHlgEb4XTzh-v7THi" version="21.6.6" type="github">
+  <diagram id="p2dfa-mhxRg4EOVGhUkr" name="第 1 页">
+    <mxGraphModel dx="2093" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DvGsUygygOUJjVL6nZNO-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvGsUygygOUJjVL6nZNO-1" target="DvGsUygygOUJjVL6nZNO-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvGsUygygOUJjVL6nZNO-1" target="DvGsUygygOUJjVL6nZNO-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvGsUygygOUJjVL6nZNO-1" target="DvGsUygygOUJjVL6nZNO-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvGsUygygOUJjVL6nZNO-1" target="DvGsUygygOUJjVL6nZNO-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DvGsUygygOUJjVL6nZNO-1" target="DvGsUygygOUJjVL6nZNO-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-1" value="交换机" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-2" value="处理边界网关协议&lt;br&gt;报文" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-3" value="处理链路发现协议&lt;br&gt;报文" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="219" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-4" value="处理简单管理协议&lt;br&gt;报文" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="328" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-6" value="实现链路聚合" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="436" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DvGsUygygOUJjVL6nZNO-12" value="管理硬件传感器" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="545" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
