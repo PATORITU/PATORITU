@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-30T03:22:47.741Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="wHsEghui16UUb38EarDc" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-30T03:59:20.874Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="YUNsFb3AMgloVn98-hld" version="21.6.6" type="github">
   <diagram name="第 1 页" id="_xqbL-4A8Ex_9uuWLOnW">
     <mxGraphModel dx="617" dy="396" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,42 +16,42 @@
         <mxCell id="WRlRsOg9scwtYN7NSVLy-7" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WRlRsOg9scwtYN7NSVLy-6">
           <mxGeometry x="50" y="80" width="10" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-13" value="1.EAPOL-Start" style="verticalAlign=bottom;endArrow=block;entryX=0.175;entryY=0.026;shadow=0;strokeWidth=1;exitX=1.032;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WRlRsOg9scwtYN7NSVLy-2" target="WRlRsOg9scwtYN7NSVLy-7">
-          <mxGeometry x="0.0026" relative="1" as="geometry">
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-13" value="1.计费开始请求报文&#xa;RADIUS Accounting-Request(Start)" style="verticalAlign=bottom;endArrow=block;entryX=0.175;entryY=0.026;shadow=0;strokeWidth=1;exitX=1.032;exitY=0.028;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WRlRsOg9scwtYN7NSVLy-2" target="WRlRsOg9scwtYN7NSVLy-7">
+          <mxGeometry x="0.004" relative="1" as="geometry">
             <mxPoint x="745" y="350" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-14" value="2.EAP-Request/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.083;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-14" value="2.计费开始响应报文&#xa;RADIUS Accounting-Response" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.083;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="815.83" y="399.9999999999999" as="sourcePoint" />
             <mxPoint x="645" y="399.9999999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-19" value="10.EAP-Success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.076;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0021" relative="1" as="geometry">
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-19" value="6.计费结束响应报文&#xa;RADIUS Accounting-Response" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.076;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0003" relative="1" as="geometry">
             <mxPoint x="820" y="600" as="sourcePoint" />
             <mxPoint x="645.76" y="599.9999999999998" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-3" value="6.EAP-Request/MD5 Chanllenge" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.083;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0021" relative="1" as="geometry">
-            <mxPoint x="815.83" y="480" as="sourcePoint" />
-            <mxPoint x="644.9999999999999" y="480" as="targetPoint" />
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-3" value="4.实时计费响应报文&#xa;RADIUS Accounting-Response" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.083;exitY=0.364;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.1206" relative="1" as="geometry">
+            <mxPoint x="820.83" y="490" as="sourcePoint" />
+            <mxPoint x="649.9999999999999" y="490" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-8" value="3.EAP-Response/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-8" value="3.实时计费请求报文&#xa;RADIUS Accounting-Request&#xa;(Interim-Update)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
           <mxGeometry x="0.0026" relative="1" as="geometry">
-            <mxPoint x="645" y="440" as="sourcePoint" />
+            <mxPoint x="645" y="450" as="sourcePoint" />
             <mxPoint as="offset" />
-            <mxPoint x="820" y="440.5" as="targetPoint" />
+            <mxPoint x="820" y="450.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WRlRsOg9scwtYN7NSVLy-4" value="7.EAP-Response/MD5 chanllenge" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.137;entryY=0.668;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="0.0026" relative="1" as="geometry">
+        <mxCell id="WRlRsOg9scwtYN7NSVLy-4" value="5.计费结束请求报文&#xa;RADIUS Accounting-Request(Stop)" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.137;entryY=0.668;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0044" relative="1" as="geometry">
             <mxPoint x="645" y="560" as="sourcePoint" />
             <mxPoint as="offset" />
             <mxPoint x="821.3699999999999" y="560.48" as="targetPoint" />
