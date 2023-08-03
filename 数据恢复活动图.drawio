@@ -1,9 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:57:42.579Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.6" etag="H3UjIs2snIgDs5OxYR5e" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T07:05:59.999Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="z6SW10BKm7qEoNE9Igmr" version="21.6.6" type="github">
   <diagram name="第 1 页" id="rZtprluGpIdklK5qmUXH">
-    <mxGraphModel>
+    <mxGraphModel dx="2237" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-5" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-6" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="FhwYWp9bJd9N0G8-TKpN-5" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-10" value="连接Redis数据库" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="5" y="170" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="FhwYWp9bJd9N0G8-TKpN-10" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-12" value="获取APPDL_DB中的接口表项" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="5" y="270" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-13" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="FhwYWp9bJd9N0G8-TKpN-12" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-14" value="遍历接口配置文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="5" y="370" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FhwYWp9bJd9N0G8-TKpN-14" target="FhwYWp9bJd9N0G8-TKpN-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="430" as="targetPoint" />
+            <mxPoint x="220" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-17" value="" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="25" y="480" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-20" value="恢复接口配置信息" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="5" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-22" value="删除接口配置文件" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-23" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="FhwYWp9bJd9N0G8-TKpN-22" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-24" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FhwYWp9bJd9N0G8-TKpN-17" target="FhwYWp9bJd9N0G8-TKpN-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="330" as="targetPoint" />
+            <mxPoint x="290" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-25" value="该接口是否启动dot1x认证" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FhwYWp9bJd9N0G8-TKpN-24">
+          <mxGeometry x="-0.1582" y="2" relative="1" as="geometry">
+            <mxPoint x="-189" y="-58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FhwYWp9bJd9N0G8-TKpN-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FhwYWp9bJd9N0G8-TKpN-17" target="FhwYWp9bJd9N0G8-TKpN-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="370" as="targetPoint" />
+            <mxPoint x="230" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
