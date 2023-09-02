@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2023-09-02T02:19:29.701Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" version="21.7.2" etag="IVA8i1iqwvr2rT4WvY9I" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-02T02:24:45.160Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="qTrQod7kY5LnBMRO7A00" version="21.7.2" type="github">
   <diagram name="第 1 页" id="w1ty5ll6zhFCr-Bdm9dE">
-    <mxGraphModel>
+    <mxGraphModel dx="2305" dy="1291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="1krqHonE8LpaEr5OU90a-1" value="授权模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="40" y="110" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1krqHonE8LpaEr5OU90a-1">
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-3" value="用户下线" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1krqHonE8LpaEr5OU90a-1" target="1krqHonE8LpaEr5OU90a-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="70" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-4" value=":数据同步模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1krqHonE8LpaEr5OU90a-4">
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-6" value=":数据库" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="340" y="110" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1krqHonE8LpaEr5OU90a-6">
+          <mxGeometry x="45" y="70" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-8" value=":数据转换模块" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="100" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1krqHonE8LpaEr5OU90a-8">
+          <mxGeometry x="45" y="100" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-10" value=":SAI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="640" y="110" width="100" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1krqHonE8LpaEr5OU90a-10">
+          <mxGeometry x="45" y="240" width="10" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="200" as="sourcePoint" />
+            <mxPoint x="235" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-13" value="1.删除FDB消息发送到&lt;br&gt;数据同步模块" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-12">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="270" as="sourcePoint" />
+            <mxPoint x="385" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-15" value="3.删除活动数据库中&lt;br&gt;FDB表项" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-14">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-16" value="" style="endArrow=none;html=1;rounded=0;endFill=0;startArrow=classic;startFill=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="327.14" as="sourcePoint" />
+            <mxPoint x="535" y="327.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-17" value="5.删除硬件数据库&lt;br&gt;中的FDB表项" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-16">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="281.85" as="sourcePoint" />
+            <mxPoint x="535" y="281.85" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-19" value="4.通知数据转换模块&lt;br&gt;已删除FDB表项" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-18">
+          <mxGeometry x="-0.1073" y="10" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="1krqHonE8LpaEr5OU90a-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="384.71000000000004" as="sourcePoint" />
+            <mxPoint x="720" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-21" value="6.通过SAI删除硬件中的FDB表项" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-20">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="5" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="459.1700000000001" as="sourcePoint" />
+            <mxPoint x="235" y="459.1700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-23" value="6.通知数据同步模块&lt;br&gt;设置用户数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-22">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="480" as="sourcePoint" />
+            <mxPoint x="385" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-25" value="7.删除活动数据库中&lt;br&gt;用户数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-24">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="5" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="95" y="254.5" as="sourcePoint" />
+            <mxPoint x="235" y="254.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1krqHonE8LpaEr5OU90a-27" value="2.通知数据同步模块&lt;br&gt;去激活端口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1krqHonE8LpaEr5OU90a-26">
+          <mxGeometry x="-0.148" relative="1" as="geometry">
+            <mxPoint x="6" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
