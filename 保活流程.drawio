@@ -1,36 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-07-29T13:10:15.498Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.183" etag="NASKhJMwxJZ4lo185aYc" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-13T10:33:57.790Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="6orIrFcDLxGpsMQT5Fb-" version="22.0.4" type="github">
   <diagram name="第 1 页" id="L8TstAGEym9d4AjhLlm4">
-    <mxGraphModel dx="337" dy="146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1066" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-1" value=":Client客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-1" value=":Client客户端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="90" y="150" width="100" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="5ifGCB2DYgt_lwlN3urC-1">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontFamily=宋体;" parent="5ifGCB2DYgt_lwlN3urC-1" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-6" value=":Device设备端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-6" value=":Device设备端" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontFamily=宋体;" parent="1" vertex="1">
           <mxGeometry x="270" y="150" width="100" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="5ifGCB2DYgt_lwlN3urC-6">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-31" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;fontFamily=宋体;" parent="5ifGCB2DYgt_lwlN3urC-6" vertex="1">
           <mxGeometry x="45" y="80" width="10" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-14" value="1.保活请求报文&#xa;EAP-Request/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.97;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.064;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5ifGCB2DYgt_lwlN3urC-2">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-14" value="1.保活请求报文&#xa;EAP-Request/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.97;entryY=0.09;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.064;exitY=0.069;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=宋体;" parent="1" target="5ifGCB2DYgt_lwlN3urC-2" edge="1">
           <mxGeometry x="-0.0021" relative="1" as="geometry">
             <mxPoint x="315.64" y="240.35000000000002" as="sourcePoint" />
             <mxPoint x="150" y="239" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-8" value="2.保活响应报文&#xa;EAP-Response/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.113;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5ifGCB2DYgt_lwlN3urC-2">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-8" value="2.保活响应报文&#xa;EAP-Response/Identity" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=1.113;exitY=0.454;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.101;entryY=0.332;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=宋体;" parent="1" source="5ifGCB2DYgt_lwlN3urC-2" edge="1">
           <mxGeometry x="0.0045" relative="1" as="geometry">
             <mxPoint x="145" y="310.5" as="sourcePoint" />
             <mxPoint as="offset" />
             <mxPoint x="316.01" y="279.8" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5ifGCB2DYgt_lwlN3urC-19" value="3.保活确认报文&#xa;EAP-Success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.066;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.069;exitY=0.599;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="5ifGCB2DYgt_lwlN3urC-2">
+        <mxCell id="5ifGCB2DYgt_lwlN3urC-19" value="3.保活确认报文&#xa;EAP-Success" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=1.066;entryY=0.816;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.069;exitY=0.599;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=宋体;" parent="1" target="5ifGCB2DYgt_lwlN3urC-2" edge="1">
           <mxGeometry x="-0.0006" relative="1" as="geometry">
             <mxPoint x="315.68999999999994" y="319.8500000000001" as="sourcePoint" />
             <mxPoint x="150" y="360" as="targetPoint" />
